@@ -84,6 +84,7 @@ if age >= 18:
                             f"You have decide to abbandon the quest.\nGoodbye {name}.\n-----------------------------T-h-e-----E-n-d--------------------------"
                         )
             elif choice2 == "across":
+                health -= 20
                 print(
                     f"you drowned and lost 20 health \nYou now have {health} health \n----------------Game Over--------------"
                 )
