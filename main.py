@@ -53,10 +53,10 @@ if age >= 18:
                         choice4 = input(
                             "You can see the mountain ahead. Yould you like to use the stairs or Climb using the ropes? (stairs/ropes)"
                         ).lower()
-                        print = (f"you have chosen to climb using {choice4}\n")
+                        print(f"you have chosen to climb using {choice4}\n")
                         if choice4 == "stairs":
                             print(
-                                f"you have reached the top of the mountain. Untold Riches awaits you!! \n One final Choice to decide your fate."
+                                f"you have reached the top of the mountain. Untold Riches awaits you {name}!! \n One final Choice to decide your fate."
                             )
                             choice5 = input(
                                 "Would you like to return the treasure to the king or Do you wan to keep The Treasure to your self? (king/self)"
