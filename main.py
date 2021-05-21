@@ -91,7 +91,7 @@ if age >= 18:
             else:
                 print("Invalid choice ...Game Has ended")
         else:
-            print("Invalid Weapon Choice, You have been Executed")
+            print("Invalid Weapon Choice, You have been Executed ")
 else:
     print("you are not old enough to play.. Sorry")
     print(
